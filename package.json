@@ -1,0 +1,22 @@
+{
+  "name": "${project-name}",
+  "version": "1.0.0",
+  "description": "${project-description=none}",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "repository": "",
+  "license": "BSD",
+  "fisx": {
+    "dependencies": {
+      "er": "edp:er@latest",
+      "esui": "edp:esui@latest",
+      "ef": "edp:ef@latest"
+    },
+    "requireConfig": {
+      "baseUrl": "src"
+    }
+  }
+}
