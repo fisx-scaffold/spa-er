@@ -1,6 +1,6 @@
 /**
  * @file 页面入口模块
- * @author ${author}
+ * @author ${#author#}
  */
 
 define(function (require) {

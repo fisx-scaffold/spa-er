@@ -63,10 +63,10 @@ exports.getLocations = function () {
 
         // 添加 mock 处理器
         autoresponse('edp', {
-            watch: true,
             logLevel: 'debug',
             root: __dirname,
-            handlers: requireInjector
+            handlers: requireInjector,
+            post: true
         }),
 
         {
