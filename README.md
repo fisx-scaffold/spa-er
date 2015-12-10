@@ -1,7 +1,7 @@
 SPA ER Template
 ======
 
-## Using the following framework and libs
+### Using the following framework and libs
 
 * [ER](https://github.com/ecomfe/er): provide rich spa developement framework
 
