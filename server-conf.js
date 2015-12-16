@@ -30,12 +30,7 @@ exports.directoryIndexes = true;
 exports.documentRoot = __dirname;
 
 exports.getLocations = function () {
-    var requireInjector = requireConfigInjector({
-        // 自定义注入 `require.config` 的自定义配置
-        requireConfig: {
-            baseUrl: 'src'
-        }
-    });
+    var requireInjector = requireConfigInjector();
 
     return [
         {
