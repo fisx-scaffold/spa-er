@@ -9,11 +9,11 @@
   "author": "",
   "repository": "",
   "license": "BSD",
-  "fisx": {
+  "${#manifestKey#}": {
     "dependencies": {
-      "er": "edp:er@latest",
-      "esui": "edp:esui@latest",
-      "ef": "edp:ef@latest"
+      "er": "latest",
+      "esui": "latest",
+      "ef": "latest"
     },
     "requireConfig": {
       "baseUrl": "src"
