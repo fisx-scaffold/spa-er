@@ -6,11 +6,7 @@
 var pageFiles = ['index.html'];
 
 // 初始化要编译的样式文件: 只处理页面引用的样式文件
-var _ = fis.util;
-var styleFiles = _.extractLinkStyleFileSync({
-    files: pageFiles
-});
-fis.addProcessStyleFiles(styleFiles, {}, true);
+fis.initProcessStyleFiles(pageFiles, {});
 
 // 启用相对路径
 fis.match('index.html', {
